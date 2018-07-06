@@ -1,0 +1,65 @@
+body
+{
+	background: #eee!important;
+}
+.logo img{
+	width: 160px;
+	padding: 30px;
+}
+
+.login-content
+{
+	width: 50%;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    border: solid 1px #888;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px -5px #4a4242;
+}
+
+.login-content .buttons
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.file-contents{
+	padding: 20px;
+}
+
+.file-inner-contents{
+	border: solid 2px;
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around;	*/
+}
+
+.file-inner-item
+{
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd2130d1;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 15px -1px #7d7878;
+}
+
+
+.edit-content{
+	padding: 20px;
+}
+
+.edit-inner-content{
+	padding: 20px;
+    border: solid 2px;
+}

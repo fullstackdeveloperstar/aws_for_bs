@@ -1,0 +1,14 @@
+include ./include/header.pug
+
+div.login-content
+	div(class="text-success")=message
+	form(action='/login', method='POST')
+		div.form-group
+			label(for="username") User Name
+			input(type="text" class="form-control" name="username")
+		div.form-group
+			label(for="password") Password
+			input(type="password" class="form-control" name="password")
+		div.buttons
+			button(class="btn-primary btn" type="button") Register
+			button(class="btn-success btn" type="submit") Login
